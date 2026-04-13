@@ -53,7 +53,7 @@ const cursosList = <any[]>[
                 <div class="container py-5">
                     <div class="row">
                         <!-- esquerda - congelar ao rolar a página -->
-                        <div class="col-lg-4" v-reveal="'bottom'">
+                        <div class="col-lg-4 mb-3" v-reveal="'bottom'">
                             <div class="p-4 rounded-4 bg-green mb-4 shadow">
                                 <div class="row">
                                     <div class="col">
@@ -125,7 +125,7 @@ const cursosList = <any[]>[
                             </p>
 
                             <div class="row mb-3">
-                                <div class="col-lg-6" v-reveal="'bottom'" v-for="data in dataList" :key="data.id">
+                                <div class="col-lg-6 mb-3" v-reveal="'bottom'" v-for="data in dataList" :key="data.id">
                                     <div class="p-4 rounded-4 bg-light hover-up-wb">
                                         <div class="row">
                                             <div class="col-auto align-self-center">
@@ -195,12 +195,12 @@ const cursosList = <any[]>[
 
                             <p class="text-center">
                                 <a href="mailto:contato@nataliamathiasergo.com.br"
-                                    class="btn btn-default btn-lg px-4 py-2 rounded-3">
+                                    class="btn btn-default btn-lg px-4 py-2 rounded-3 mb-3">
                                     <font-awesome-icon icon="fa-solid fa-file-lines" />
                                     Solicitar Orçamento
                                 </a>
                                 <a href="https://wa.me/5514996880711"
-                                    class="btn btn-default btn-lg px-4 py-2 rounded-3 ms-3">
+                                    class="btn btn-default btn-lg px-4 py-2 rounded-3 ms-lg-3">
                                     <font-awesome-icon icon="fa-brands fa-whatsapp" />
                                     Falar no WhatsApp
                                 </a>

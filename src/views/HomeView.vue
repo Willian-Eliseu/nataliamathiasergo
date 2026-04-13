@@ -68,7 +68,7 @@ const onHide = () => visibleRef.value = false
         <div class="container py-5 align-content-center">
           <div class="row">
             <div class="col-lg-6 z-0 align-self-center">
-              <p class="text-start">
+              <p class="text-start small">
                 <span
                   class="py-2 px-4 rounded-pill bg-light text-principal fw-semibold border-principal border bg-opacity-25 fst-italic">
                   Especialista em Ergonomia e Ginástica Laboral
@@ -84,19 +84,19 @@ const onHide = () => visibleRef.value = false
                 com foco na prevenção e saúde no trabalho.
               </p>
 
-              <p class="text-start">
+              <p class="text-center text-lg-start">
                 <span class="py-1 px-3 rounded-pill bg-light text-light border-principal border bg-opacity-25 small">
                   <font-awesome-icon icon="fa-solid fa-location-dot" class="text-principal" />
                   Bauru e Região
                 </span>
               </p>
 
-              <p class="text-start">
-                <a href="mailto:contato@nataliamathiasergo.com.br" class="btn btn-default px-4 py-2 rounded-3">
+              <p class="text-center text-lg-start pt-3">
+                <a href="mailto:contato@nataliamathiasergo.com.br" class="btn btn-default px-4 py-2 rounded-3 mb-3">
                   <font-awesome-icon icon="fa-solid fa-file-lines" />
                   Solicitar Orçamento
                 </a>
-                <a href="https://wa.me/5514996880711" class="btn btn-inverted px-4 py-2 rounded-3 ms-3">
+                <a href="https://wa.me/5514996880711" class="btn btn-inverted px-4 py-2 rounded-3 ms-lg-3">
                   <font-awesome-icon icon="fa-brands fa-whatsapp" />
                   Falar no WhatsApp
                 </a>
@@ -275,11 +275,12 @@ const onHide = () => visibleRef.value = false
                 e adequar à NR-17.
               </p>
               <p class="text-center">
-                <a href="mailto:contato@nataliamathiasergo.com.br" class="btn btn-default btn-lg px-4 py-2 rounded-3">
+                <a href="mailto:contato@nataliamathiasergo.com.br"
+                  class="btn btn-default btn-lg px-4 py-2 rounded-3 mb-3">
                   <font-awesome-icon icon="fa-solid fa-file-lines" />
                   Solicitar Orçamento
                 </a>
-                <a href="https://wa.me/5514996880711" class="btn btn-default btn-lg px-4 py-2 rounded-3 ms-3">
+                <a href="https://wa.me/5514996880711" class="btn btn-default btn-lg px-4 py-2 rounded-3 ms-lg-3">
                   <font-awesome-icon icon="fa-brands fa-whatsapp" />
                   Falar no WhatsApp
                 </a>
