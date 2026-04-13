@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import 'bootstrap';
+
+:root {
+  --defaultColor: #d4af37;
+  --green: #0f3d36;
+  --light: #f6f4f0;
+  --lightGreen: #2e7d37;
+}
+
+.reveal-base {
+  /* Valores de fallback */
+  --reveal-x: 0px;
+  --reveal-y: 20px;
+  --reveal-duration: 0.8s;
+  --reveal-delay: 0s;
+
+  opacity: 0;
+  transform: translate(var(--reveal-x), var(--reveal-y));
+
+  /* Aplicando as variáveis de tempo */
+  transition:
+    opacity var(--reveal-duration) ease-out var(--reveal-delay),
+    transform var(--reveal-duration) cubic-bezier(0.165, 0.84, 0.44, 1) var(--reveal-delay);
+
+  will-change: transform, opacity;
+}
+
+.reveal-active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.ff-bree {
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-principal {
+  color: var(--defaultColor);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-default {
+  background-color: var(--defaultColor);
+}
+
+.nav-link.active {
+  color: var(--defaultColor) !important;
+}
+
+.border-principal {
+  border-color: var(--defaultColor) !important;
+}
+
+.border-green {
+  border-color: var(--green);
+}
+
+.btn-default {
+  background-color: var(--defaultColor);
+  color: white;
+  border: 2px solid var(--defaultColor);
+  transition-duration: 500ms;
+}
+
+.btn-default:hover {
+  background-color: none;
+  color: var(--defaultColor);
+  border: 2px solid var(--defaultColor);
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 10px 0px #d4af3755 !important;
+}
+
+.btn-inverted {
+  background-color: none;
+  color: white;
+  border: 2px solid #ffffffcc;
+  transition-duration: 500ms;
+}
+
+.btn-inverted:hover {
+  background-color: #ffffff22;
+  color: white;
+  border: 2px solid #ffffffcc;
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 10px 0px #ffffff55 !important;
+}
+
+.btn-green {
+  background-color: var(--green);
+  color: white;
+  border: 2px solid var(--green);
+  transition-duration: 500ms;
+}
+
+.btn-green:hover {
+  background-color: none;
+  color: var(--green);
+  border: 2px solid var(--green);
+  transform: translateY(-2px);
+}
+
+.hover-up {
+  border: 1px solid #ffffff33;
+  transition-duration: 500ms;
+}
+
+.hover-up:hover {
+  transform: translateY(-4px);
+  border: 1px solid var(--defaultColor);
+}
+
+.thin-border-light {
+  border: 1px solid #ffffff33 !important;
+}
+
+.hover-up-wb {
+  transition-duration: 500ms;
+  border: 1px solid #ffffff00;
+}
+
+.hover-up-wb:hover {
+  transform: translateY(-4px);
+  border: 1px solid var(--defaultColor);
+}
