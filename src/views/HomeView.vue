@@ -70,7 +70,7 @@ const onHide = () => visibleRef.value = false
             <div class="col-lg-6 z-0 align-self-center">
               <p class="text-start small">
                 <span
-                  class="py-2 px-4 rounded-pill bg-light text-principal fw-semibold border-principal border bg-opacity-25 fst-italic">
+                  class="py-2 px-4 rounded-pill bg-light text-principal border-principal border bg-opacity-25 fst-italic">
                   Especialista em Ergonomia e Ginástica Laboral
                 </span>
               </p>
@@ -92,7 +92,8 @@ const onHide = () => visibleRef.value = false
               </p>
 
               <p class="text-center text-lg-start pt-3">
-                <a href="mailto:contato@nataliamathiasergo.com.br" class="btn btn-default px-4 py-2 rounded-3 mb-3">
+                <a href="mailto:contato@nataliamathiasergo.com.br"
+                  class="btn btn-default px-4 py-2 rounded-3 mb-3 mb-lg-0">
                   <font-awesome-icon icon="fa-solid fa-file-lines" />
                   Solicitar Orçamento
                 </a>
@@ -276,7 +277,7 @@ const onHide = () => visibleRef.value = false
               </p>
               <p class="text-center">
                 <a href="mailto:contato@nataliamathiasergo.com.br"
-                  class="btn btn-default btn-lg px-4 py-2 rounded-3 mb-3">
+                  class="btn btn-default btn-lg px-4 py-2 rounded-3 mb-3 mb-lg-0">
                   <font-awesome-icon icon="fa-solid fa-file-lines" />
                   Solicitar Orçamento
                 </a>

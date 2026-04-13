@@ -195,7 +195,7 @@ const cursosList = <any[]>[
 
                             <p class="text-center">
                                 <a href="mailto:contato@nataliamathiasergo.com.br"
-                                    class="btn btn-default btn-lg px-4 py-2 rounded-3 mb-3">
+                                    class="btn btn-default btn-lg px-4 py-2 rounded-3 mb-3 mb-lg-0">
                                     <font-awesome-icon icon="fa-solid fa-file-lines" />
                                     Solicitar Orçamento
                                 </a>
